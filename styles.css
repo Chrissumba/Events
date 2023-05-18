@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    background-color: gold;
+}
+
+#transaction-list,
+#add-transaction {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+form label,
+form input,
+form select,
+form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 5px 10px;
+}
